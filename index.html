@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logopetshop.png" alt="Logo Pet Shop" class="logo-image">
+            <h1 class="logo-text">PET SHOP</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#packages">Paket Layanan</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#lists">Daftar</a></li>
+                <li><a href="#table">Tabel</a></li>
+                <li><a href="#form">Form</a></li>
+                <li><a href="#frames">Video</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="banner">
+        <h2>Make Your Pets Happy</h2>
+        <p>Menjual produk berkualitas dan menyediakan layanan terbaik.</p>
+        <img src="kucingdananjing1.png" alt="Banner Pet Shop">
+    </section>
+
+    <section id="about" class="content">
+        <h2>Tentang Kami</h2>
+        <p>Kami adalah toko hewan peliharaan yang berdedikasi untuk memberikan layanan dan produk terbaik bagi hewan kesayangan Anda.</p>
+        <img src="anjing1.jpg" alt="Tentang Kami">
+    </section>
+
+    <section id="packages" class="content">
+        <h2>Paket Layanan Cleaning Hewan</h2>
+        <div class="package-container">
+            <div class="package">
+                <h3>Cleaning Pet Pro 1</h3>
+                <p>Paket dasar untuk membersihkan hewan peliharaan dengan layanan yang cepat dan efektif.</p>
+                <p><strong>Harga: Rp 100.000</strong></p>
+            </div>
+            <div class="package">
+                <h3>Cleaning Pet Pro 2</h3>
+                <p>Paket perawatan lebih lengkap, termasuk pemotongan kuku dan pembersihan telinga hewan.</p>
+                <p><strong>Harga: Rp 150.000</strong></p>
+            </div>
+            <div class="package">
+                <h3>Cleaning Pet Pro 3</h3>
+                <p>Paket perawatan lengkap dengan tambahan layanan spa dan pijat untuk hewan peliharaan Anda.</p>
+                <p><strong>Harga: Rp 250.000</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="content">
+        <h2>Produk Kami</h2>
+        <div class="product-container">
+            <div class="product">
+                <img src="whiskas.png" alt="Produk 1">
+                <h3>Whiskas</h3>
+                <p>Makanan Kucing</p>
+                <p><strong>Harga: Rp 10.000</strong></p>
+            </div>
+            <div class="product">
+                <img src="pedigri.png" alt="Produk 2">
+                <h3>Pedigri</h3>
+                <p>Makanan Anjing</p>
+                <p><strong>Harga: Rp 60.000</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="lists" class="content">
+        <h2>Daftar Produk Terlaris</h2>
+        <ol class="numbered-list">
+            <li>Whiskas - Makanan Kucing</li>
+            <li>Pedigree - Makanan Anjing</li>
+            <li>Juici Bites - Snack Kucing</li>
+        </ol>
+        <ul class="bullet-list">
+            <li>Susu Kucing - Growssy</li>
+            <li>Susu Anjing - Growppy</li>
+        </ul>
+    </section>
+
+    <section id="table" class="content">
+        <h2>Tabel Harga Produk</h2>
+        <table class="product-table">
+            <tr>
+                <th>Nama Produk</th>
+                <th>Jenis</th>
+                <th>Harga</th>
+            </tr>
+            <tr>
+                <td>Whiskas</td>
+                <td>Makanan Kucing</td>
+                <td>Rp 10.000</td>
+            </tr>
+            <tr>
+                <td>Pedigree</td>
+                <td>Makanan Anjing</td>
+                <td>Rp 60.000</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="form" class="content">
+        <h2>Form Pemesanan</h2>
+        <form class="order-form">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="product">Pilih Produk:</label>
+            <select id="product" name="product">
+                <option value="whiskas">Whiskas</option>
+                <option value="pedigree">Pedigree</option>
+            </select><br>
+
+            <label for="quantity">Jumlah:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required><br>
+
+            <button type="submit">Pesan Sekarang</button>
+        </form>
+    </section>
+
+    <!-- Frame/Iframe -->
+    <section id="frames" class="content">
+        <h2>Frame Contoh</h2>
+        <iframe src="https://www.youtube.com/watch?v=61Y0-SdPoTk" class="iframe-frame" title="Video"></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pet Shop</p>
+        <div class="contact-footer">
+            <p>Email: petshop@gmail.com</p>
+            <p>Telepon: 0888-8888-8888</p>
+            <p>Alamat: Jalan Abdi, Kotak Depok</p>
+        </div>
+    </footer>
+</body>
+</html>
